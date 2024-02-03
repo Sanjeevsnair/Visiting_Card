@@ -1,0 +1,178 @@
+
+
+.frame {
+    height: 267px;
+    width: 465px;
+    align-items: center;
+    background-color: #ded0d4;
+    margin-left: 500px;
+    margin-top: 390px;
+    position: absolute;
+    float: left;
+    border-radius: 12px;
+    
+}
+
+.frame .rectangle {
+    height: 267px;
+    position: relative;
+    margin-left: 155px;
+    width: 309px;
+}
+
+.frame .img {
+    height: 267px;
+    left: 164px;
+    position: absolute;
+    top: 0;
+    width: 121px;
+}
+
+.frame .rectangle-2 {
+    height: 267px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 171px;
+}
+
+.frame .text-wrapper {
+    color: #dbdada;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 22px;
+    font-weight: 700;
+    left: 65PX;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 46px;
+    width: 226px;
+    word-wrap: break-word
+}
+
+.frame .div {
+    color: #dbdada;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 115px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 132px;
+    white-space: nowrap;
+    width: 182px;
+    word-wrap: break-word
+}
+
+.frame .text-wrapper-2 {
+    color: #dbdada;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 115PX;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    white-space: nowrap;
+    width: 182px;
+    word-wrap: break-word
+}
+
+.frame .text-wrapper-3 {
+    color: #dbdada;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 115PX;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 188px;
+    width: 182px;
+    white-space: initial;
+    word-wrap: break-word
+}
+
+.form {
+    background-color: rgb(255, 255, 255);
+    margin-left: 500px;
+    margin-top: 50px;
+    position: absolute;
+    float: left;
+    height: 300px;
+    width: 450px;
+}
+
+
+.form .name .placeholder {
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.form .name{
+    box-sizing: border-box;
+    height: 39px;
+    width: 426px;
+    border: 1px solid #8c8c8c;
+    border-radius: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.form .age{
+    box-sizing: border-box;
+    height: 39px;
+    margin-top: 15px;
+    padding-left: 20px;
+    width: 426px;
+    border: 1px solid #8c8c8c;
+    border-radius: 20px;
+}.form .mobile{
+    box-sizing: border-box;
+    height: 39px;
+    padding-left: 20px;
+    margin-top: 15px;
+    width: 426px;
+    border: 1px solid #8c8c8c;
+    border-radius: 20px;
+}.form .address{
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-top: 15px;
+    height: 39px;
+    width: 426px;
+    border: 1px solid #8c8c8c;
+    border-radius: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top: 25px;
+    margin-left: 145px;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
